@@ -1,13 +1,4 @@
-/*
-Theme Name:Octotel
-Author:Viewport
-Author URI:http://www.viewport.co.za
-Description:Custom theme for Octotel
-Version:1.2
-Text Domain:Octotel
-Tags:Octotel
 
-*/
 
 /* Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;margin:0;padding:0}
@@ -209,14 +200,14 @@ header {display:block; position:relative; z-index:100; clear:both; background:#2
 .flex-container a:hover,.flex-slider a:hover{outline:none}
 .slides,.slides > li,.flex-control-nav,.flex-direction-nav{margin:0;padding:0;list-style:none}
 .flex-pauseplay span{text-transform:capitalize}
-.flexslider{margin:0;padding:0}
+.flexslider{margin:0;padding:0;}
 .flexslider .slides > li{display:none;-webkit-backface-visibility:hidden}
 .flexslider .slides img{width:100%;display:block}
 .flexslider .slides:after{content:"\0020";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 html[xmlns] .flexslider .slides{display:block}
 * html .flexslider .slides{height:1%}
 .no-js .flexslider .slides > li:first-child{display:block}
-.flexslider{margin:0; max-height:100vh; overflow-y:hidden; background:#d9d0bc; position:relative; display:block; clear:both; z-index:2; zoom:1;}
+.flexslider{margin:0; max-height:100vh; overflow-y:hidden; background: skyblue !important; position:relative; display:block; clear:both; z-index:2; zoom:1;}
 .flexslider .slides{zoom:1}
 .flexslider .slides img{height:auto;-moz-user-select:none}
 .flex-viewport{max-height:2000px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease}
@@ -304,7 +295,7 @@ html[xmlns] .flexslider .slides{display:block}
 
 /* Home Page Intro */		
 .intro {float:left; width:100%; clear:both; background:#ff5117; text-align:center; color:white; position:relative; z-index:1; overflow-y:hidden; font-size:120%;}
-	.intro:before {display:block; content:''; position:absolute; z-index:1; left:47.5%; top:-10%; background:#ff771d; width:10%; height:120%; -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg); -ms-transform: rotate(10deg);transform: rotate(10deg);}
+	.intro:before {display:block; content:''; position:absolute; z-index:1; left:47.5%; top:-10%; background:skyblue; width:10%; height:120%; -moz-transform: rotate(10deg); -webkit-transform: rotate(10deg); -o-transform: rotate(10deg); -ms-transform: rotate(10deg);transform: rotate(10deg);}
 	.intro .first, .intro .second {float:left; width:50%; z-index:2; position:relative; padding:1em 0;}	
 	.intro .second {background:#ff771d;}
 	.intro .icon {display:inline-block; vertical-align:top; padding:0.5em 1.5em;}
